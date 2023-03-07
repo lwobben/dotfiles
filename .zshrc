@@ -1,5 +1,6 @@
-# Path oh-my-zsh installation.
-export ZSH="/Users/lianawobben/.oh-my-zsh"
+# Paths
+export PYTHONPATH=/home/liana/repos/:/home/liana/
+export ZSH="$HOME/.oh-my-zsh"
 
 # Theme (see https://github.com/ohmyzsh/ohmyzsh/wiki/Themes)
 ZSH_THEME="robbyrussell"
@@ -11,6 +12,7 @@ zsh-autosuggestions
 zsh-syntax-highlighting
 )
 
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $ZSH/oh-my-zsh.sh
 
 # Git aliases
