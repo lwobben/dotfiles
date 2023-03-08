@@ -8,8 +8,8 @@ ZSH_THEME="robbyrussell"
 # Plugins
 plugins=(
 git
-zsh-autosuggestions
-zsh-syntax-highlighting
+# zsh-autosuggestions
+# zsh-syntax-highlighting
 )
 
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
