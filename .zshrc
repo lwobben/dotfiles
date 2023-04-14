@@ -41,5 +41,5 @@ alias kd="kubectl describe"
 
 # Other aliases
 alias p="python3"
-alias szsh="source ~/.zshrc"
-alias zshconf="code ~/.zshrc"
+alias zshsrc="source ~/.zshrc"
+alias zshvim="vim ~/.zshrc"
